@@ -1,0 +1,37 @@
+{
+  "name": "venezuela-currency",
+  "version": "0.0.1",
+  "description": "RealTime alternative to dollar today and other pages",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreddyJD/vzla-currency.git"
+  },
+  "keywords": [
+    "Venezuela",
+    "Currency",
+    "DolarToday",
+    "better"
+  ],
+  "author": "FreddyJD",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreddyJD/vzla-currency/issues"
+  },
+  "homepage": "https://github.com/FreddyJD/vzla-currency#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^0.15.2",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-hbs": "^2.0.2",
+    "latest-tweets": "^1.0.4",
+    "mongodb": "^3.1.13",
+    "node-fetch": "^2.3.0",
+    "request": "^2.88.0",
+    "twitter-fetcher": "^18.0.2"
+  }
+}

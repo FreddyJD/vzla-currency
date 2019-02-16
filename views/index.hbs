@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="row items">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Latest Update<br>
+                        <small>Check every 360m</small></th>
+                        <th scope="col">Average<br>
+                        <small>Currently (3 rates)</small></th>
+                        <th scope="col">BolivarCucuta<br>
+                        <small>BolivarCucuta.com</small>
+                        </th>
+                        <th scope="col">DolarToday<br>
+                        <small>DolarToday.com</small></th>
+                        <th scope="col">Dicom<br>
+                        <small>Dicom.gob.ve</small></th>
+
+                    </tr>
+                </thead>
+                <i class="fa o-circle-check"></i>
+                <tbody>
+                    {{#each data}}
+                    <tr>
+                        <th scope="row">{{date}}</th>
+                        <td>${{avg}}</td>
+                        <td>${{exchangers.DolarCucuta}}</td>
+                        <td>${{exchangers.DolarToday}}</td>
+                        <td>${{exchangers.DolarDicom}}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+            </table>
+
+
+        </div>
+        
+    </div>
+
+    
+</div>
